@@ -1,0 +1,34 @@
+.copyright {
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+.copyright__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000000;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.copyright__logo {
+  fill: #63d1bb;
+}
+
+.copyright__link:hover .copyright__logo {
+  fill: #46c1ae;
+}
+
+.copyright__link:active {
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    padding: 0;
+    min-width: 185px;
+  }
+}

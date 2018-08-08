@@ -1,0 +1,125 @@
+.contacts-and-feedback {
+  width: 320px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 39px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.contacts-and-feedback__contacts {
+  margin-bottom: 36px;
+}
+
+.contacts-and-feedback__map-wrapper {
+  position: relative;
+  margin-bottom: 34px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 145px;
+    left: 138px;
+    width: 67px;
+    height: 100px;
+    background-image: url("../img/icon-map-pin.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.contacts-and-feedback__media-map {
+  width: 320px;
+  height: 457px;
+  position: absolute;
+  z-index: 10;
+}
+
+.contacts-and-feedback__map-image {
+  width: 320px;
+  height: 457px;
+}
+
+.contacts-and-feedback__button {
+  width: 260px;
+  margin: 0 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts-and-feedback {
+    width: 768px;
+    padding-top: 59px;
+    padding-bottom: 57px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts-and-feedback__contacts {
+    margin-bottom: 55px;
+  }
+
+  .contacts-and-feedback__map-wrapper {
+    margin-bottom: 50px;
+
+    &::before {
+      top: 139px;
+      left: 364px;
+    }
+  }
+
+  .contacts-and-feedback__media-map {
+    width: 768px;
+    height: 457px;
+  }
+
+  .contacts-and-feedback__map-image {
+    width: 768px;
+    height: 457px;
+  }
+
+  .contacts-and-feedback__button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts-and-feedback {
+    width: 1250px;
+    padding-top: 141px;
+    padding-bottom: 105px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .contacts-and-feedback__contacts {
+    margin-bottom: 48px;
+  }
+
+  .contacts-and-feedback__map-wrapper {
+    position: absolute;
+    top: 71px;
+    right: 100px;
+
+    &::before {
+      top: 143px;
+      left: 238px;
+    }
+  }
+
+  .contacts-and-feedback__media-map {
+    width: 525px;
+    height: 457px;
+  }
+
+  .contacts-and-feedback__map-image {
+    width: 525px;
+    height: 457px;
+  }
+
+  .contacts-and-feedback__button {
+    margin-left: 175px;
+  }
+}
