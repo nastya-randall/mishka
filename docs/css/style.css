@@ -374,7 +374,7 @@ label.visually-hidden {
     font-weight: 700;
     line-height: 24px; }
   .promo-list__item {
-    margin-right: 62px; }
+    margin-right: 130px; }
   .promo-list__item-link {
     display: inline-block;
     color: #000000;
@@ -2101,7 +2101,8 @@ label.visually-hidden {
     vertical-align: middle;
     font-size: 19px; }
   .form__label--user-name .form__label-text {
-    margin-right: 25px; }
+    margin-right: 25px;
+    line-height: 25px; }
   .form__input-radio + .form__label-text::before {
     top: 2px;
     width: 52px;
